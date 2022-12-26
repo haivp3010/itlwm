@@ -2,7 +2,9 @@ name: CD
 
 on:
   push:
-    branches: master
+    branches:
+      - master
+      - test
 
 env:
   BUILD_OUTPUT: 'build/Build/Products/Debug'
